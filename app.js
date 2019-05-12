@@ -8,7 +8,6 @@ import routes from './routes';
 const app = express();
 
 // Application-Level Middleware
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -17,7 +16,6 @@ app.use('/order', routes.order);
 
 // Start
 const eraseDatabaseOnSync = true;
-
 connectDb().then(async () => {
   if (eraseDatabaseOnSync) {
     await models.Order.deleteMany({})
