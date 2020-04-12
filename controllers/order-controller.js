@@ -48,6 +48,7 @@ exports.create = (req, res) => {
         }
         console.log('There are', size, 'messages on the queue.');
       });
+      res.send("Product created sucessfully", order.name)
     })
     .catch(err => {
       res.status(500).send({
