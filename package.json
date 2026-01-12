@@ -17,8 +17,8 @@
     "express": "^4.22.0",
     "mongoose": "^8.18.1",
     "mongoose-sequence": "^5.2.2",
-    "nodemon": "^2.0.17",
-    "sqs-producer": "^1.6.3"
+    "nodemon": "^2.0.19",
+    "sqs-producer": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
