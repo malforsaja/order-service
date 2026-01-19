@@ -17,7 +17,7 @@
     "express": "^4.22.0",
     "mongoose": "^8.18.1",
     "mongoose-sequence": "^5.2.2",
-    "nodemon": "^3.0.0",
+    "nodemon": "^3.1.11",
     "sqs-producer": "^3.0.0"
   },
   "devDependencies": {
